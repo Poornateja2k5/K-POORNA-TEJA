@@ -1,0 +1,144 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F4F8; /* Light background color */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #4F9DA6; /* Modern teal color */
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FF5C8D; /* Accent color on hover */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #FF5C8D; /* Accent pink color */
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #E83F5B; /* Darker shade of accent color */
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    text-align: center;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #FF5C8D; /* Accent color for button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #E83F5B;
+}
+
+/* Footer */
+footer {
+    background-color: #4F9DA6; /* Same teal color as header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.front{
+    color:black;
+}
